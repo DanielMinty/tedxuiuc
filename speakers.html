@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Speakers | TEDxUIUC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header" id="home">
+    <nav class="nav">
+      <div class="nav-brand">
+        <a href="index.html">
+          <img src="assets/logo-placeholder.png" alt="TEDx logo" class="logo" />
+        </a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="tickets.html">Tickets</a>
+        <a href="join.html">Join</a>
+        <a href="speakers.html" class="active">Speakers</a>
+        <a href="about.html">About</a>
+        <a href="meet_the_team.html">Meet The Team</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="speakers-page">
+    <section class="tickets-hero-small">
+      <h1>MEET OUR SPEAKERS</h1>
+      <p>Discover the brilliant minds taking the TEDxUIUC stage. Each speaker brings unique insight, passion, and innovation.</p>
+    </section>
+
+    
+    <div id="cards">
+      <!-- Cards will be injected here by JS -->
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About TEDxUIUC</h3>
+        <p>TEDxUIUC is a student-led initiative that brings the spirit of TED to the University of Illinois Urbana-Champaign. We unite changemakers, storytellers, and visionaries through powerful talks and creative collaboration.</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="speakers.html">Speakers</a>
+          <a href="join.html">Join</a>
+          <a href="tickets.html">Tickets</a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3>Connect With Us</h3>
+        <a href="mailto:tedxuiuc@gmail.com" class="footer-email">tedxuiuc@gmail.com</a>
+        <div class="social-links">
+          <a href="https://instagram.com/tedxuiuc" target="_blank" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://twitter.com/tedxuiuc" target="_blank" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://linkedin.com/company/tedxuiuc" target="_blank" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+        </div>
+        <p class="copyright">© 2025 TEDxUIUC. All rights reserved.<br>This independent TEDx event is operated under license from TED.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const speakers = [
+      {
+        name: "Manu Edakara",
+        imageAddress: "https://digitalmeasuresgies.s3.us-east-2.amazonaws.com/business_public/portrait/medaka2.jpg",
+        role: "Speaker",
+        topic: "Rolling the Dice on Humanity",
+        tag1: "Computer Science",
+        tag2: "Anthropology",
+        type: "Entrepreneur"
+      },
+      {
+        name: "Christopher Lemark",
+        imageAddress: "https://pbs.twimg.com/profile_images/1444635733046841351/40YsDAPx_400x400.jpg",
+        role: "Speaker",
+        topic: "A Beautiful Mess",
+        tag1: "Psychology",
+        tag2: "Business",
+        type: "Mental Health Advocate"
+      },
+      {
+        name: "Elisabeth Pollock",
+        imageAddress: "https://www.advancingpretrial.org/wp-content/uploads/2025/08/illinois-Elisabeth-Pollock.jpg",
+        role: "Speaker",
+        topic: "Inside the System, Against the Odds: The Case for Public Defenders",
+        tag1: "Political Science",
+        tag2: "Law",
+        type: "Public Defender"
+      },
+       {
+        name: "Terry Henderson",
+        imageAddress: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7qrZp46sxFI2mxeD9W9r0fkaJohplmPLCqA&s",
+        role: "Speaker",
+        topic: "Who Gets to Make Music? Reimagining Inclusion from Start to Studio",
+        tag1: "Music",
+        tag2: "Culture",
+        type: "Musician & Educator"
+      },
+      {
+        name: "Russell Wigginton",
+        imageAddress: "https://news.rhodes.edu/sites/news/files/2024-10/Dr.%20Russell%20Wigginton.jpg",
+        role: "Speaker",
+        topic: "My Journey to the National Civil Rights Museum",
+        tag1: "Civil Rights",
+        tag2: "Political Science",
+        type: "Historian"
+      }
+    ];
+
+    const container = document.getElementById("cards");
+
+    speakers.forEach(speaker => {
+      const html = `
+        <figure class="card">
+          <div class="card__image-container">
+            <img src="${speaker.imageAddress}" alt="${speaker.name}" class="card__image">   
+          </div>
+          
+          <figcaption class="card__caption">
+            <h1 class="card__name">${speaker.name}</h1>
+
+            <h3 class="card__type">
+              ${speaker.type}
+            </h3>
+
+            <table class="card__stats">
+              <tbody>
+                <tr>
+                  <th>Role</th>
+                  <td>${speaker.role}</td>
+                </tr>
+                <tr>
+                  <th>Speech</th>
+                  <td>${speaker.topic}</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <div class="card__abilities">
+              <h4 class="card__ability">
+                <span class="card__label">Tag</span>
+                ${speaker.tag1}
+              </h4>
+              <h4 class="card__ability">
+                <span class="card__label">Tag</span>
+                ${speaker.tag2}
+              </h4>
+            </div>
+          </figcaption>
+        </figure>
+      `;
+      container.insertAdjacentHTML("beforeend", html);
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
